@@ -1,0 +1,14 @@
+<suite name="Ecommerce">
+  <test name="sanity test">
+  <groups>
+  <run>
+  <include name = "sanity"/>
+  <include name = "regression"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="TestNGTestCases.Class1"/>
+      <class name="TestNGTestCases.Class2"/>
+    </classes>
+  </test> 
+</suite>

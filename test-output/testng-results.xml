@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="154" started-at="2018-03-13T03:53:47Z" finished-at="2018-03-13T03:53:47Z">
+    <groups>
+      <group name="regression">
+        <method signature="Class1.addcurrency()[pri:0, instance:TestNGTestCases.Class1@4493d195]" name="addcurrency" class="TestNGTestCases.Class1"/>
+        <method signature="Class1.login()[pri:0, instance:TestNGTestCases.Class1@4493d195]" name="login" class="TestNGTestCases.Class1"/>
+        <method signature="Class1.logout()[pri:0, instance:TestNGTestCases.Class1@4493d195]" name="logout" class="TestNGTestCases.Class1"/>
+        <method signature="Class2.deletecurrency()[pri:0, instance:TestNGTestCases.Class2@4232c52b]" name="deletecurrency" class="TestNGTestCases.Class2"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Class1.addproduct()[pri:0, instance:TestNGTestCases.Class1@4493d195]" name="addproduct" class="TestNGTestCases.Class1"/>
+        <method signature="Class1.addvender()[pri:1, instance:TestNGTestCases.Class1@4493d195]" name="addvender" class="TestNGTestCases.Class1"/>
+        <method signature="Class1.login()[pri:0, instance:TestNGTestCases.Class1@4493d195]" name="login" class="TestNGTestCases.Class1"/>
+        <method signature="Class1.logout()[pri:0, instance:TestNGTestCases.Class1@4493d195]" name="logout" class="TestNGTestCases.Class1"/>
+        <method signature="Class2.deleteproduct()[pri:0, instance:TestNGTestCases.Class2@4232c52b]" name="deleteproduct" class="TestNGTestCases.Class2"/>
+        <method signature="Class2.deletevender()[pri:0, instance:TestNGTestCases.Class2@4232c52b]" name="deletevender" class="TestNGTestCases.Class2"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="154" started-at="2018-03-13T03:53:47Z" finished-at="2018-03-13T03:53:47Z">
+      <class name="TestNGTestCases.Class1">
+        <test-method status="PASS" signature="addcurrency()[pri:0, instance:TestNGTestCases.Class1@4493d195]" name="addcurrency" duration-ms="21" started-at="2018-03-13T09:23:47Z" finished-at="2018-03-13T09:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcurrency -->
+        <test-method status="PASS" signature="addproduct()[pri:0, instance:TestNGTestCases.Class1@4493d195]" name="addproduct" duration-ms="5" started-at="2018-03-13T09:23:47Z" finished-at="2018-03-13T09:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNGTestCases.Class1@4493d195]" name="login" duration-ms="6" started-at="2018-03-13T09:23:47Z" finished-at="2018-03-13T09:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGTestCases.Class1@4493d195]" name="logout" duration-ms="2" started-at="2018-03-13T09:23:47Z" finished-at="2018-03-13T09:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="addvender()[pri:1, instance:TestNGTestCases.Class1@4493d195]" name="addvender" duration-ms="2" started-at="2018-03-13T09:23:47Z" finished-at="2018-03-13T09:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addvender -->
+      </class> <!-- TestNGTestCases.Class1 -->
+      <class name="TestNGTestCases.Class2">
+        <test-method status="PASS" signature="deletecurrency()[pri:0, instance:TestNGTestCases.Class2@4232c52b]" name="deletecurrency" duration-ms="6" started-at="2018-03-13T09:23:47Z" finished-at="2018-03-13T09:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecurrency -->
+        <test-method status="PASS" signature="deleteproduct()[pri:0, instance:TestNGTestCases.Class2@4232c52b]" name="deleteproduct" duration-ms="10" started-at="2018-03-13T09:23:47Z" finished-at="2018-03-13T09:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteproduct -->
+        <test-method status="PASS" signature="deletevender()[pri:0, instance:TestNGTestCases.Class2@4232c52b]" name="deletevender" duration-ms="2" started-at="2018-03-13T09:23:47Z" finished-at="2018-03-13T09:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletevender -->
+      </class> <!-- TestNGTestCases.Class2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
